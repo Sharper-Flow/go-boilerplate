@@ -32,5 +32,3 @@ A ready to use template for GO applications that follows clean architecture prin
    ./cli <args>
     ```
 
-5. Contributing
-   
