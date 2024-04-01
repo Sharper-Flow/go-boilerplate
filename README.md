@@ -5,7 +5,7 @@ A ready to use template for GO applications that follows clean architecture prin
 ## Project Structure
 
 * **cmd:** Contains the main entry point for the command-line application, with a placeholder function.
-    * **function** Contains the command-line interface (CLI). The `main.go` file serves as the entry point for the CLI application.
+    * **cli** Contains the command-line interface (CLI). The `main.go` file serves as the entry point for the CLI application.
 * **internal:** Houses the core application logic.
     * **domain:**  Defines core entities and models.
     * **repositories:**  Defines interfaces for interacting with external data sources.
@@ -28,8 +28,8 @@ A ready to use template for GO applications that follows clean architecture prin
 
 4. **Build and Run**
    ```bash
-   go build ./cmd/function
-   ./function <args>
+   go build ./cmd/cli
+   ./cli <args>
     ```
 
 5. Contributing
